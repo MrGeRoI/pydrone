@@ -1,0 +1,2648 @@
+{
+  "format_version": 1,
+  "source_sha256": "8c22e7d977df00b9cf398af186466c9f4a903df052a2aa7d5ab30e665a5588fa",
+  "sprites": {
+    "TankAxe": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 74,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankAxe.png"
+        }
+      ]
+    },
+    "Ball01": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 8,
+      "bbox_right": 41,
+      "bbox_bottom": 40,
+      "bbox_top": 6,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Ball01.png"
+        }
+      ]
+    },
+    "ArenaBack01": {
+      "origin_x": 0,
+      "origin_y": 0,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 2799,
+      "bbox_bottom": 1749,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 2800,
+          "height": 1750,
+          "file": "sprites/ArenaBack01.png"
+        }
+      ]
+    },
+    "Ball02": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 8,
+      "bbox_right": 41,
+      "bbox_bottom": 40,
+      "bbox_top": 6,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Ball02.png"
+        }
+      ]
+    },
+    "Circle02": {
+      "origin_x": 50,
+      "origin_y": 50,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 99,
+      "bbox_bottom": 99,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 100,
+          "height": 100,
+          "file": "sprites/Circle02.png"
+        }
+      ]
+    },
+    "Square01": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 49,
+      "bbox_bottom": 49,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Square01.png"
+        }
+      ]
+    },
+    "TankPistol": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 62,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankPistol.png"
+        }
+      ]
+    },
+    "TankShotgun": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 71,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankShotgun.png"
+        }
+      ]
+    },
+    "TankMachinegun": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 74,
+      "bbox_bottom": 57,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankMachinegun.png"
+        }
+      ]
+    },
+    "TankMask": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 52,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankMask.png"
+        }
+      ]
+    },
+    "AxeMask": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 73,
+      "bbox_bottom": 73,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/AxeMask.png"
+        }
+      ]
+    },
+    "Square02": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 74,
+      "bbox_bottom": 74,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/Square02.png"
+        }
+      ]
+    },
+    "TurretBase01": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 4,
+      "bbox_right": 70,
+      "bbox_bottom": 70,
+      "bbox_top": 4,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TurretBase01.png"
+        }
+      ]
+    },
+    "TurretTop01": {
+      "origin_x": 40,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 14,
+      "bbox_right": 112,
+      "bbox_bottom": 54,
+      "bbox_top": 20,
+      "frames": [
+        {
+          "width": 125,
+          "height": 75,
+          "file": "sprites/TurretTop01.png"
+        }
+      ]
+    },
+    "TurretAssembled": {
+      "origin_x": 76,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 43,
+      "bbox_right": 148,
+      "bbox_bottom": 70,
+      "bbox_top": 4,
+      "frames": [
+        {
+          "width": 150,
+          "height": 75,
+          "file": "sprites/TurretAssembled.png"
+        }
+      ]
+    },
+    "MenuBox01": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox01.png"
+        }
+      ]
+    },
+    "Button01": {
+      "origin_x": 51,
+      "origin_y": 13,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 101,
+      "bbox_bottom": 26,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 102,
+          "height": 27,
+          "file": "sprites/Button01.png"
+        }
+      ]
+    },
+    "OpenTab01": {
+      "origin_x": 33,
+      "origin_y": 10,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 2,
+      "bbox_right": 64,
+      "bbox_bottom": 20,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 67,
+          "height": 21,
+          "file": "sprites/OpenTab01.png"
+        }
+      ]
+    },
+    "ClosedTab01": {
+      "origin_x": 33,
+      "origin_y": 10,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 2,
+      "bbox_right": 64,
+      "bbox_bottom": 20,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 67,
+          "height": 21,
+          "file": "sprites/ClosedTab01.png"
+        }
+      ]
+    },
+    "MenuBox02": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox02.png"
+        }
+      ]
+    },
+    "MenuBox03": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox03.png"
+        }
+      ]
+    },
+    "MenuBox04": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox04.png"
+        }
+      ]
+    },
+    "MenuBox05": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 255,
+      "bbox_bottom": 20,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 256,
+          "height": 21,
+          "file": "sprites/MenuBox05.png"
+        }
+      ]
+    },
+    "TankNothing": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 52,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankNothing.png"
+        }
+      ]
+    },
+    "Pipe": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 20,
+      "bbox_right": 29,
+      "bbox_bottom": 40,
+      "bbox_top": 7,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Pipe.png"
+        }
+      ]
+    },
+    "TankPipe01": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 67,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankPipe01.png"
+        }
+      ]
+    },
+    "TankPipe02": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 62,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankPipe02.png"
+        }
+      ]
+    },
+    "Cash": {
+      "origin_x": 8,
+      "origin_y": 10,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 13,
+      "bbox_bottom": 16,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 17,
+          "height": 20,
+          "file": "sprites/Cash.png"
+        }
+      ]
+    },
+    "TankBigAxe": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 45,
+      "bbox_right": 149,
+      "bbox_bottom": 104,
+      "bbox_top": 45,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/TankBigAxe.png"
+        }
+      ]
+    },
+    "Barracks01": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 149,
+      "bbox_bottom": 149,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Barracks01.png"
+        }
+      ]
+    },
+    "Barracks02": {
+      "origin_x": 9,
+      "origin_y": 9,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 1,
+      "bbox_right": 56,
+      "bbox_bottom": 17,
+      "bbox_top": 1,
+      "frames": [
+        {
+          "width": 65,
+          "height": 19,
+          "file": "sprites/Barracks02.png"
+        }
+      ]
+    },
+    "Barracks03": {
+      "origin_x": 9,
+      "origin_y": 9,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 1,
+      "bbox_right": 60,
+      "bbox_bottom": 17,
+      "bbox_top": 1,
+      "frames": [
+        {
+          "width": 65,
+          "height": 19,
+          "file": "sprites/Barracks03.png"
+        }
+      ]
+    },
+    "Barracks04": {
+      "origin_x": 5,
+      "origin_y": 5,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 10,
+      "bbox_bottom": 9,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 11,
+          "height": 10,
+          "file": "sprites/Barracks04.png"
+        }
+      ]
+    },
+    "Bar01Assembled": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 149,
+      "bbox_bottom": 149,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Bar01Assembled.png"
+        }
+      ]
+    },
+    "TankBigPistol": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 45,
+      "bbox_right": 125,
+      "bbox_bottom": 104,
+      "bbox_top": 45,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/TankBigPistol.png"
+        }
+      ]
+    },
+    "MiteBase": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 4,
+      "bbox_right": 70,
+      "bbox_bottom": 72,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MiteBase.png"
+        }
+      ]
+    },
+    "MiteTank": {
+      "origin_x": 75,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 25,
+      "bbox_right": 91,
+      "bbox_bottom": 61,
+      "bbox_top": 13,
+      "frames": [
+        {
+          "width": 150,
+          "height": 75,
+          "file": "sprites/MiteTank.png"
+        }
+      ]
+    },
+    "MiteBaseAssembled": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 4,
+      "bbox_right": 70,
+      "bbox_bottom": 72,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MiteBaseAssembled.png"
+        }
+      ]
+    },
+    "MiteBaseOn": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 4,
+      "bbox_right": 70,
+      "bbox_bottom": 72,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MiteBaseOn.png"
+        }
+      ]
+    },
+    "BigTankMask": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 45,
+      "bbox_right": 103,
+      "bbox_bottom": 104,
+      "bbox_top": 45,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/BigTankMask.png"
+        }
+      ]
+    },
+    "Circle01": {
+      "origin_x": 50,
+      "origin_y": 50,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 99,
+      "bbox_bottom": 99,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 100,
+          "height": 100,
+          "file": "sprites/Circle01.png"
+        }
+      ]
+    },
+    "MachineTurretBase": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 11,
+      "bbox_right": 64,
+      "bbox_bottom": 64,
+      "bbox_top": 11,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MachineTurretBase.png"
+        }
+      ]
+    },
+    "MachineTurretTop": {
+      "origin_x": 30,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 6,
+      "bbox_right": 68,
+      "bbox_bottom": 55,
+      "bbox_top": 23,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MachineTurretTop.png"
+        }
+      ]
+    },
+    "MachineTurretAssembled": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 11,
+      "bbox_right": 74,
+      "bbox_bottom": 64,
+      "bbox_top": 11,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MachineTurretAssembled.png"
+        }
+      ]
+    },
+    "AxeMask02": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 149,
+      "bbox_bottom": 149,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/AxeMask02.png"
+        }
+      ]
+    },
+    "MenuBox0202": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox0202.png"
+        }
+      ]
+    },
+    "CommandTop": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 19,
+      "bbox_right": 55,
+      "bbox_bottom": 55,
+      "bbox_top": 19,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/CommandTop.png"
+        }
+      ]
+    },
+    "CommandBottom": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 6,
+      "bbox_right": 73,
+      "bbox_bottom": 68,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/CommandBottom.png"
+        }
+      ]
+    },
+    "CommandBottom2": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 6,
+      "bbox_right": 73,
+      "bbox_bottom": 68,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/CommandBottom2.png"
+        }
+      ]
+    },
+    "Crosshairs01": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 12,
+      "bbox_right": 62,
+      "bbox_bottom": 63,
+      "bbox_top": 11,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/Crosshairs01.png"
+        }
+      ]
+    },
+    "APCBase01": {
+      "origin_x": 170,
+      "origin_y": 62,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 32,
+      "bbox_right": 213,
+      "bbox_bottom": 114,
+      "bbox_top": 9,
+      "frames": [
+        {
+          "width": 250,
+          "height": 125,
+          "file": "sprites/APCBase01.png"
+        }
+      ]
+    },
+    "APCBase02": {
+      "origin_x": 4,
+      "origin_y": 4,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 7,
+      "bbox_bottom": 36,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 8,
+          "height": 37,
+          "file": "sprites/APCBase02.png"
+        }
+      ]
+    },
+    "MachineTurretTop02": {
+      "origin_x": 27,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 6,
+      "bbox_right": 68,
+      "bbox_bottom": 65,
+      "bbox_top": 9,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MachineTurretTop02.png"
+        }
+      ]
+    },
+    "MenuBox0102": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox0102.png"
+        }
+      ]
+    },
+    "TankRailgun": {
+      "origin_x": 54,
+      "origin_y": 36,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 26,
+      "bbox_right": 97,
+      "bbox_bottom": 57,
+      "bbox_top": 21,
+      "frames": [
+        {
+          "width": 113,
+          "height": 75,
+          "file": "sprites/TankRailgun.png"
+        }
+      ]
+    },
+    "RailgunMask": {
+      "origin_x": 0,
+      "origin_y": 2,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 2999,
+      "bbox_bottom": 4,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 3000,
+          "height": 5,
+          "file": "sprites/RailgunMask.png"
+        }
+      ]
+    },
+    "TankFlamethrower": {
+      "origin_x": 54,
+      "origin_y": 36,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 27,
+      "bbox_right": 102,
+      "bbox_bottom": 58,
+      "bbox_top": 21,
+      "frames": [
+        {
+          "width": 113,
+          "height": 75,
+          "file": "sprites/TankFlamethrower.png"
+        }
+      ]
+    },
+    "APCBase03": {
+      "origin_x": 4,
+      "origin_y": 32,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 7,
+      "bbox_bottom": 36,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 8,
+          "height": 37,
+          "file": "sprites/APCBase03.png"
+        }
+      ]
+    },
+    "PistolBarAssembled": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 149,
+      "bbox_bottom": 149,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/PistolBarAssembled.png"
+        }
+      ]
+    },
+    "LaserTurretTop": {
+      "origin_x": 25,
+      "origin_y": 31,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 8,
+      "bbox_right": 74,
+      "bbox_bottom": 65,
+      "bbox_top": 9,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/LaserTurretTop.png"
+        }
+      ]
+    },
+    "LaserTurretAssembled": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 4,
+      "bbox_right": 86,
+      "bbox_bottom": 71,
+      "bbox_top": 4,
+      "frames": [
+        {
+          "width": 100,
+          "height": 75,
+          "file": "sprites/LaserTurretAssembled.png"
+        }
+      ]
+    },
+    "TankBigCannon": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 45,
+      "bbox_right": 177,
+      "bbox_bottom": 104,
+      "bbox_top": 45,
+      "frames": [
+        {
+          "width": 225,
+          "height": 150,
+          "file": "sprites/TankBigCannon.png"
+        }
+      ]
+    },
+    "Shell01": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 41,
+      "bbox_bottom": 41,
+      "bbox_top": 8,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Shell01.png"
+        }
+      ]
+    },
+    "Vehicle0101": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 10,
+      "bbox_right": 47,
+      "bbox_bottom": 94,
+      "bbox_top": 56,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Vehicle0101.png"
+        }
+      ]
+    },
+    "Vehicle0102": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 2,
+      "bbox_right": 66,
+      "bbox_bottom": 123,
+      "bbox_top": 27,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Vehicle0102.png"
+        }
+      ]
+    },
+    "Vehicle0103": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 24,
+      "bbox_right": 167,
+      "bbox_bottom": 147,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 225,
+          "height": 150,
+          "file": "sprites/Vehicle0103.png"
+        }
+      ]
+    },
+    "Vehicle01Assembled": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 2,
+      "bbox_right": 167,
+      "bbox_bottom": 147,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 225,
+          "height": 150,
+          "file": "sprites/Vehicle01Assembled.png"
+        }
+      ]
+    },
+    "Suit01": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 52,
+      "bbox_bottom": 57,
+      "bbox_top": 17,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/Suit01.png"
+        }
+      ]
+    },
+    "BlastSprite01": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 49,
+      "bbox_right": 102,
+      "bbox_bottom": 102,
+      "bbox_top": 52,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/BlastSprite01.png"
+        }
+      ]
+    },
+    "BlastSprite02": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 35,
+      "bbox_right": 110,
+      "bbox_bottom": 110,
+      "bbox_top": 36,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/BlastSprite02.png"
+        }
+      ]
+    },
+    "BlastSprite03": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 24,
+      "bbox_right": 126,
+      "bbox_bottom": 124,
+      "bbox_top": 25,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/BlastSprite03.png"
+        }
+      ]
+    },
+    "TankRepair": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 72,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankRepair.png"
+        }
+      ]
+    },
+    "HealLogo": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 74,
+      "bbox_bottom": 74,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/HealLogo.png"
+        }
+      ]
+    },
+    "PauseScreen": {
+      "origin_x": 0,
+      "origin_y": 0,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 74,
+      "bbox_bottom": 74,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/PauseScreen.png"
+        }
+      ]
+    },
+    "Suit02": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 52,
+      "bbox_bottom": 61,
+      "bbox_top": 13,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/Suit02.png"
+        }
+      ]
+    },
+    "TankMother": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 12,
+      "bbox_right": 62,
+      "bbox_bottom": 64,
+      "bbox_top": 10,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankMother.png"
+        }
+      ]
+    },
+    "TankChildPistol": {
+      "origin_x": 16,
+      "origin_y": 17,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 9,
+      "bbox_right": 28,
+      "bbox_bottom": 24,
+      "bbox_top": 10,
+      "frames": [
+        {
+          "width": 35,
+          "height": 35,
+          "file": "sprites/TankChildPistol.png"
+        }
+      ]
+    },
+    "TankMamaAxe": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 12,
+      "bbox_right": 74,
+      "bbox_bottom": 64,
+      "bbox_top": 10,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankMamaAxe.png"
+        }
+      ]
+    },
+    "TankBigMamaAxe": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 25,
+      "bbox_right": 149,
+      "bbox_bottom": 128,
+      "bbox_top": 20,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/TankBigMamaAxe.png"
+        }
+      ]
+    },
+    "TankChildAxe": {
+      "origin_x": 16,
+      "origin_y": 17,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 9,
+      "bbox_right": 34,
+      "bbox_bottom": 25,
+      "bbox_top": 9,
+      "frames": [
+        {
+          "width": 35,
+          "height": 35,
+          "file": "sprites/TankChildAxe.png"
+        }
+      ]
+    },
+    "TankRPG01": {
+      "origin_x": 54,
+      "origin_y": 36,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 20,
+      "bbox_right": 109,
+      "bbox_bottom": 56,
+      "bbox_top": 21,
+      "frames": [
+        {
+          "width": 113,
+          "height": 75,
+          "file": "sprites/TankRPG01.png"
+        }
+      ]
+    },
+    "Missile01": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 9,
+      "bbox_right": 45,
+      "bbox_bottom": 27,
+      "bbox_top": 20,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Missile01.png"
+        }
+      ]
+    },
+    "TankRPG02": {
+      "origin_x": 54,
+      "origin_y": 36,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 20,
+      "bbox_right": 80,
+      "bbox_bottom": 56,
+      "bbox_top": 21,
+      "frames": [
+        {
+          "width": 113,
+          "height": 75,
+          "file": "sprites/TankRPG02.png"
+        }
+      ]
+    },
+    "TankMinigun": {
+      "origin_x": 54,
+      "origin_y": 36,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 39,
+      "bbox_right": 98,
+      "bbox_bottom": 57,
+      "bbox_top": 21,
+      "frames": [
+        {
+          "width": 113,
+          "height": 75,
+          "file": "sprites/TankMinigun.png"
+        }
+      ]
+    },
+    "Round01": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 49,
+      "bbox_bottom": 30,
+      "bbox_top": 20,
+      "frames": [
+        {
+          "width": 50,
+          "height": 50,
+          "file": "sprites/Round01.png"
+        }
+      ]
+    },
+    "Suit03": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 52,
+      "bbox_bottom": 64,
+      "bbox_top": 10,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/Suit03.png"
+        }
+      ]
+    },
+    "MenuBox0103": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox0103.png"
+        }
+      ]
+    },
+    "UIBack": {
+      "origin_x": 0,
+      "origin_y": 0,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 251,
+      "bbox_bottom": 236,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 255,
+          "height": 240,
+          "file": "sprites/UIBack.png"
+        }
+      ]
+    },
+    "Bolt": {
+      "origin_x": 25,
+      "origin_y": 25,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 11,
+      "bbox_right": 537,
+      "bbox_bottom": 40,
+      "bbox_top": 10,
+      "frames": [
+        {
+          "width": 550,
+          "height": 50,
+          "file": "sprites/Bolt.png"
+        }
+      ]
+    },
+    "SuitBarrier01": {
+      "origin_x": 46,
+      "origin_y": 28,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 70,
+      "bbox_bottom": 70,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/SuitBarrier01.png"
+        }
+      ]
+    },
+    "FireBall": {
+      "origin_x": 251,
+      "origin_y": 251,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 498,
+      "bbox_bottom": 501,
+      "bbox_top": 1,
+      "frames": [
+        {
+          "width": 502,
+          "height": 502,
+          "file": "sprites/FireBall.png"
+        }
+      ]
+    },
+    "MinigunTurretAssembled": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 11,
+      "bbox_right": 82,
+      "bbox_bottom": 67,
+      "bbox_top": 11,
+      "frames": [
+        {
+          "width": 119,
+          "height": 75,
+          "file": "sprites/MinigunTurretAssembled.png"
+        }
+      ]
+    },
+    "MinigunTurretTop": {
+      "origin_x": 27,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 2,
+      "bbox_right": 72,
+      "bbox_bottom": 68,
+      "bbox_top": 24,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/MinigunTurretTop.png"
+        }
+      ]
+    },
+    "MenuBox0203": {
+      "origin_x": 128,
+      "origin_y": 384,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 252,
+      "bbox_bottom": 765,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 256,
+          "height": 768,
+          "file": "sprites/MenuBox0203.png"
+        }
+      ]
+    },
+    "BossFactory01": {
+      "origin_x": 150,
+      "origin_y": 150,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 34,
+      "bbox_right": 184,
+      "bbox_bottom": 263,
+      "bbox_top": 36,
+      "frames": [
+        {
+          "width": 300,
+          "height": 300,
+          "file": "sprites/BossFactory01.png"
+        }
+      ]
+    },
+    "BossFactory02": {
+      "origin_x": 15,
+      "origin_y": 15,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 90,
+      "bbox_bottom": 27,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 100,
+          "height": 31,
+          "file": "sprites/BossFactory02.png"
+        }
+      ]
+    },
+    "BossFactory03": {
+      "origin_x": 15,
+      "origin_y": 15,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 3,
+      "bbox_right": 94,
+      "bbox_bottom": 27,
+      "bbox_top": 3,
+      "frames": [
+        {
+          "width": 100,
+          "height": 31,
+          "file": "sprites/BossFactory03.png"
+        }
+      ]
+    },
+    "BossFactory04": {
+      "origin_x": 7,
+      "origin_y": 7,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 14,
+      "bbox_bottom": 14,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 15,
+          "height": 15,
+          "file": "sprites/BossFactory04.png"
+        }
+      ]
+    },
+    "BossFactoryAssembled": {
+      "origin_x": 150,
+      "origin_y": 150,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 34,
+      "bbox_right": 184,
+      "bbox_bottom": 263,
+      "bbox_top": 36,
+      "frames": [
+        {
+          "width": 300,
+          "height": 300,
+          "file": "sprites/BossFactoryAssembled.png"
+        }
+      ]
+    },
+    "BossArmor": {
+      "origin_x": 74,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 35,
+      "bbox_right": 142,
+      "bbox_bottom": 125,
+      "bbox_top": 24,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/BossArmor.png"
+        }
+      ]
+    },
+    "BossFlamethrower": {
+      "origin_x": 108,
+      "origin_y": 73,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 53,
+      "bbox_right": 203,
+      "bbox_bottom": 116,
+      "bbox_top": 43,
+      "frames": [
+        {
+          "width": 225,
+          "height": 150,
+          "file": "sprites/BossFlamethrower.png"
+        }
+      ]
+    },
+    "BossRailgun": {
+      "origin_x": 108,
+      "origin_y": 73,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 53,
+      "bbox_right": 193,
+      "bbox_bottom": 115,
+      "bbox_top": 43,
+      "frames": [
+        {
+          "width": 225,
+          "height": 150,
+          "file": "sprites/BossRailgun.png"
+        }
+      ]
+    },
+    "Cog01": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 20,
+      "bbox_right": 129,
+      "bbox_bottom": 129,
+      "bbox_top": 20,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Cog01.png"
+        }
+      ]
+    },
+    "Giblet01": {
+      "origin_x": 17,
+      "origin_y": 17,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 34,
+      "bbox_bottom": 34,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 35,
+          "height": 35,
+          "file": "sprites/Giblet01.png"
+        }
+      ]
+    },
+    "Giblet02": {
+      "origin_x": 0,
+      "origin_y": 5,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 1,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 9,
+      "bbox_bottom": 9,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 10,
+          "height": 10,
+          "file": "sprites/Giblet02.png"
+        }
+      ]
+    },
+    "spr_Gradient": {
+      "origin_x": 0,
+      "origin_y": 0,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 2799,
+      "bbox_bottom": 1749,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 2800,
+          "height": 1750,
+          "file": "sprites/spr_Gradient.png"
+        }
+      ]
+    },
+    "TankNothing02": {
+      "origin_x": 37,
+      "origin_y": 37,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 22,
+      "bbox_right": 57,
+      "bbox_bottom": 52,
+      "bbox_top": 22,
+      "frames": [
+        {
+          "width": 75,
+          "height": 75,
+          "file": "sprites/TankNothing02.png"
+        }
+      ]
+    },
+    "Vehicle0201": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 7,
+      "bbox_right": 100,
+      "bbox_bottom": 105,
+      "bbox_top": 45,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Vehicle0201.png"
+        }
+      ]
+    },
+    "Vehicle0202": {
+      "origin_x": 16,
+      "origin_y": 7,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 32,
+      "bbox_bottom": 13,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 33,
+          "height": 14,
+          "file": "sprites/Vehicle0202.png"
+        }
+      ]
+    },
+    "Vehicle02Assembled": {
+      "origin_x": 75,
+      "origin_y": 75,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 7,
+      "bbox_right": 119,
+      "bbox_bottom": 112,
+      "bbox_top": 38,
+      "frames": [
+        {
+          "width": 150,
+          "height": 150,
+          "file": "sprites/Vehicle02Assembled.png"
+        }
+      ]
+    },
+    "Station": {
+      "origin_x": 400,
+      "origin_y": 400,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 165,
+      "bbox_right": 748,
+      "bbox_bottom": 636,
+      "bbox_top": 165,
+      "frames": [
+        {
+          "width": 800,
+          "height": 800,
+          "file": "sprites/Station.png"
+        }
+      ]
+    },
+    "Giblet03": {
+      "origin_x": 17,
+      "origin_y": 17,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 33,
+      "bbox_bottom": 33,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 34,
+          "height": 34,
+          "file": "sprites/Giblet03.png"
+        }
+      ]
+    },
+    "PlotDeviceMask": {
+      "origin_x": 17,
+      "origin_y": 17,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 33,
+      "bbox_bottom": 33,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 34,
+          "height": 34,
+          "file": "sprites/PlotDeviceMask.png"
+        }
+      ]
+    },
+    "StatsButton": {
+      "origin_x": 31,
+      "origin_y": 31,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 1,
+      "bbox_right": 61,
+      "bbox_bottom": 60,
+      "bbox_top": 1,
+      "frames": [
+        {
+          "width": 63,
+          "height": 62,
+          "file": "sprites/StatsButton.png"
+        }
+      ]
+    },
+    "Juggernaught01": {
+      "origin_x": 250,
+      "origin_y": 187,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 41,
+      "bbox_right": 408,
+      "bbox_bottom": 287,
+      "bbox_top": 87,
+      "frames": [
+        {
+          "width": 500,
+          "height": 375,
+          "file": "sprites/Juggernaught01.png"
+        }
+      ]
+    },
+    "JuggernaughtDoor01": {
+      "origin_x": 8,
+      "origin_y": 46,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 55,
+      "bbox_bottom": 55,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 56,
+          "height": 56,
+          "file": "sprites/JuggernaughtDoor01.png"
+        }
+      ]
+    },
+    "JuggerNaughtDoor02": {
+      "origin_x": 8,
+      "origin_y": 9,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 55,
+      "bbox_bottom": 55,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 56,
+          "height": 56,
+          "file": "sprites/JuggerNaughtDoor02.png"
+        }
+      ]
+    },
+    "JuggernaughtBarrier": {
+      "origin_x": 250,
+      "origin_y": 187,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 372,
+      "bbox_right": 423,
+      "bbox_bottom": 249,
+      "bbox_top": 125,
+      "frames": [
+        {
+          "width": 500,
+          "height": 375,
+          "file": "sprites/JuggernaughtBarrier.png"
+        }
+      ]
+    },
+    "JuggernaughtAssembled": {
+      "origin_x": 250,
+      "origin_y": 187,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 41,
+      "bbox_right": 424,
+      "bbox_bottom": 295,
+      "bbox_top": 79,
+      "frames": [
+        {
+          "width": 500,
+          "height": 375,
+          "file": "sprites/JuggernaughtAssembled.png"
+        }
+      ]
+    },
+    "Crosshairs02": {
+      "origin_x": 45,
+      "origin_y": 33,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 89,
+      "bbox_bottom": 64,
+      "bbox_top": 1,
+      "frames": [
+        {
+          "width": 90,
+          "height": 66,
+          "file": "sprites/Crosshairs02.png"
+        }
+      ]
+    },
+    "SmallTankMask": {
+      "origin_x": 20,
+      "origin_y": 20,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 11,
+      "bbox_right": 28,
+      "bbox_bottom": 28,
+      "bbox_top": 11,
+      "frames": [
+        {
+          "width": 40,
+          "height": 40,
+          "file": "sprites/SmallTankMask.png"
+        }
+      ]
+    },
+    "MiteTank02": {
+      "origin_x": 117,
+      "origin_y": 51,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 17,
+      "bbox_right": 138,
+      "bbox_bottom": 99,
+      "bbox_top": 2,
+      "frames": [
+        {
+          "width": 234,
+          "height": 102,
+          "file": "sprites/MiteTank02.png"
+        }
+      ]
+    },
+    "MiteTank0201": {
+      "origin_x": 0,
+      "origin_y": 3,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 36,
+      "bbox_bottom": 6,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 37,
+          "height": 7,
+          "file": "sprites/MiteTank0201.png"
+        }
+      ]
+    },
+    "MiteTank0202": {
+      "origin_x": 0,
+      "origin_y": 3,
+      "mask_shape": 1,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 40,
+      "bbox_bottom": 5,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 41,
+          "height": 6,
+          "file": "sprites/MiteTank0202.png"
+        }
+      ]
+    },
+    "Frame01": {
+      "origin_x": 867,
+      "origin_y": 529,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 1734,
+      "bbox_bottom": 1054,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 1735,
+          "height": 1055,
+          "file": "sprites/Frame01.png"
+        }
+      ]
+    },
+    "Frame02": {
+      "origin_x": 868,
+      "origin_y": 699,
+      "mask_shape": 0,
+      "alpha_tolerance": 0,
+      "separate_masks": 0,
+      "bbox_mode": 2,
+      "bbox_left": 0,
+      "bbox_right": 1734,
+      "bbox_bottom": 1394,
+      "bbox_top": 0,
+      "frames": [
+        {
+          "width": 1735,
+          "height": 1395,
+          "file": "sprites/Frame02.png"
+        }
+      ]
+    }
+  },
+  "sounds": {
+    "Fire01": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Fire01.wav"
+    },
+    "Hit01": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Hit01.wav"
+    },
+    "Hit02": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Hit02.wav"
+    },
+    "Fire03": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Fire03.wav"
+    },
+    "Fire04": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Fire04.wav"
+    },
+    "Fire05": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Fire05.wav"
+    },
+    "TurretSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/TurretSound.wav"
+    },
+    "Fire06": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Fire06.wav"
+    },
+    "OOA": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/OOA.wav"
+    },
+    "CashPickup": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/CashPickup.wav"
+    },
+    "AccessDenied": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/AccessDenied.wav"
+    },
+    "RailgunSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/RailgunSound.wav"
+    },
+    "Flamesound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Flamesound.wav"
+    },
+    "LaserSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/LaserSound.wav"
+    },
+    "Pickup": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Pickup.wav"
+    },
+    "PlaceStructure": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/PlaceStructure.wav"
+    },
+    "BarrierSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/BarrierSound.wav"
+    },
+    "RepairSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/RepairSound.wav"
+    },
+    "Victory": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Victory.wav"
+    },
+    "WarpSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/WarpSound.wav"
+    },
+    "Ready": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/Ready.wav"
+    },
+    "BurnSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/BurnSound.wav"
+    },
+    "PageFlip": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/PageFlip.wav"
+    },
+    "ExplosionSound": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/ExplosionSound.wav"
+    },
+    "sndTeleport": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/sndTeleport.wav"
+    },
+    "CriticalStop": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/CriticalStop.wav"
+    },
+    "WhiteNoise": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/WhiteNoise.wav"
+    },
+    "TouchBase": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/TouchBase.wav"
+    },
+    "TouchBase02": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 0,
+      "file": "sounds/TouchBase02.wav"
+    },
+    "Music01": {
+      "volume": 1.0,
+      "pan": 0.0,
+      "kind": 1,
+      "file": "sounds/Music01.mp3"
+    }
+  },
+  "backgrounds": {
+    "BackDrop001": "backgrounds/BackDrop001.jpg",
+    "BackDrop002": "backgrounds/BackDrop002.jpg",
+    "BackDrop003": "backgrounds/BackDrop003.jpg",
+    "BackDrop004": "backgrounds/BackDrop004.jpg",
+    "BackDrop005": "backgrounds/BackDrop005.jpg",
+    "BackDrop006": "backgrounds/BackDrop006.jpg",
+    "BackDrop007": "backgrounds/BackDrop007.jpg",
+    "BackDrop008": "backgrounds/BackDrop008.jpg"
+  },
+  "fonts": {
+    "Font01": {
+      "family": "Arial",
+      "size": 10,
+      "bold": 0,
+      "italic": 0
+    },
+    "UIFont01": {
+      "family": "Arial",
+      "size": 10,
+      "bold": 1,
+      "italic": 0
+    },
+    "UIFont02": {
+      "family": "Arial",
+      "size": 8,
+      "bold": 0,
+      "italic": 0
+    },
+    "Font04": {
+      "family": "Arial",
+      "size": 16,
+      "bold": 0,
+      "italic": 0
+    },
+    "Font05": {
+      "family": "Arial",
+      "size": 30,
+      "bold": 1,
+      "italic": 0
+    },
+    "Cash01font": {
+      "family": "Arial Black",
+      "size": 12,
+      "bold": 0,
+      "italic": 0
+    },
+    "Cash02font": {
+      "family": "Arial Black",
+      "size": 24,
+      "bold": 0,
+      "italic": 0
+    },
+    "Cash03font": {
+      "family": "Arial Black",
+      "size": 36,
+      "bold": 0,
+      "italic": 0
+    },
+    "STARTFONT": {
+      "family": "Arial Narrow",
+      "size": 8,
+      "bold": 1,
+      "italic": 0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "MachineTurretTop": 900000,
+  "MinigunTurretTop": 900000,
+  "LaserTurretTop": 950000,
+  "TurretTop01": 950000,
+  "BossFactory02": 900000,
+  "BossFactory03": 900000,
+  "Barracks02": 900000,
+  "Barracks03": 900000,
+  "Vehicle0103": 650000,
+  "Vehicle0202": 250000,
+  "Barracks04": 650000,
+  "BossFactory04": 650000,
+  "APCBase02": 650000,
+  "APCBase03": 650000,
+  "HealLogo": 990000,
+  "Bolt": 400000
+}

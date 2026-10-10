@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Saves, profiles, screenshots and debug
+/save/
+/debug/
+/test/
+/tools/
+/interpreter/
+*.log
+*.bat
+*.cmd
+*.sh
+
+# Build output
+/build/
+/dist/
+*.egg-info/
+*.spec
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Dev
+TODO.md
+AGENTS.md

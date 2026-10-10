@@ -1,0 +1,606 @@
+{
+  "room1": {
+    "legacy_id": 0,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop001",
+    "player_spawn": [
+      1400,
+      940
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": [
+      {
+        "sprite": "Frame01",
+        "x": 1400,
+        "y": 875
+      }
+    ]
+  },
+  "room2": {
+    "legacy_id": 6,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop002",
+    "player_spawn": [
+      720,
+      280
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": [
+      {
+        "sprite": "Frame02",
+        "x": 1400,
+        "y": 875
+      }
+    ]
+  },
+  "room3": {
+    "legacy_id": 9,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop003",
+    "player_spawn": [
+      1400.0,
+      875.0
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": []
+  },
+  "room4": {
+    "legacy_id": 10,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop004",
+    "player_spawn": [
+      1400.0,
+      875.0
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": []
+  },
+  "room5": {
+    "legacy_id": 11,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop005",
+    "player_spawn": [
+      1400.0,
+      875.0
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": []
+  },
+  "room6": {
+    "legacy_id": 12,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop006",
+    "player_spawn": [
+      1400.0,
+      875.0
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": []
+  },
+  "room7": {
+    "legacy_id": 13,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop007",
+    "player_spawn": [
+      1400.0,
+      875.0
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": []
+  },
+  "room8": {
+    "legacy_id": 14,
+    "width": 2800,
+    "height": 1750,
+    "steps_per_second": 50,
+    "background": "BackDrop008",
+    "player_spawn": [
+      1400.0,
+      875.0
+    ],
+    "instances": [
+      {
+        "object": "Arena",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "LIGHT",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "ViewFinder",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "Player",
+        "x": 1380,
+        "y": 912
+      },
+      {
+        "object": "DARK",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": "PauseScreenObject",
+        "x": 300,
+        "y": 288
+      },
+      {
+        "object": "Menu01",
+        "x": 1152,
+        "y": 384
+      },
+      {
+        "object": "Tab01",
+        "x": 1057,
+        "y": 10
+      },
+      {
+        "object": "Tab02",
+        "x": 1120,
+        "y": 10
+      },
+      {
+        "object": "Tab03",
+        "x": 1183,
+        "y": 10
+      },
+      {
+        "object": "Tab04",
+        "x": 1246,
+        "y": 10
+      },
+      {
+        "object": "TRANSITION",
+        "x": 360,
+        "y": 324
+      }
+    ],
+    "walls": []
+  }
+}

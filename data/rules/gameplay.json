@@ -1,0 +1,11 @@
+{
+  "player": {
+    "top_speed": 2.5,
+    "acceleration": 0.25,
+    "health": 100.0,
+    "max_health": 100.0,
+    "health_regeneration_per_step": 0.004,
+    "collision_radius": 16,
+    "sprite": "TankNothing02"
+  }
+}

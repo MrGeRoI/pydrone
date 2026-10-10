@@ -1,0 +1,2117 @@
+{
+  "Player": {
+    "sprite": "TankNothing02",
+    "mask": "TankMask",
+    "parent": "PUG2",
+    "visible": 0,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "Bullet01": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Arena": {
+    "sprite": "ArenaBack01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 100,
+    "persistent": 0
+  },
+  "Enemy01": {
+    "sprite": "TankAxe",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Bullet02": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet03": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Explosion01": {
+    "sprite": "Circle01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -40,
+    "persistent": 0
+  },
+  "Explosion02": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "Wall01": {
+    "sprite": null,
+    "mask": "Square01",
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "Wall02": {
+    "sprite": "Square02",
+    "mask": "AxeMask",
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "Enemy02": {
+    "sprite": "TankPistol",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBullet01": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet04": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyBullet02": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Turret01": {
+    "sprite": "TurretBase01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Turret02": {
+    "sprite": "TurretTop01",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": -25,
+    "persistent": 0
+  },
+  "PUBullet01": {
+    "sprite": "Shell01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PUBullet02": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -60,
+    "persistent": 0
+  },
+  "Menu01": {
+    "sprite": "MenuBox05",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -200,
+    "persistent": 0
+  },
+  "MenuButton01": {
+    "sprite": "Button01",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Tab01": {
+    "sprite": "OpenTab01",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Tab02": {
+    "sprite": "OpenTab01",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Tab03": {
+    "sprite": "OpenTab01",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Tab04": {
+    "sprite": "OpenTab01",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Bullet05": {
+    "sprite": "Pipe",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "Bullet05Landing": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Cash01": {
+    "sprite": "Cash",
+    "mask": null,
+    "parent": "CASH",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet05Explosion": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -60,
+    "persistent": 0
+  },
+  "EnemyBoss01": {
+    "sprite": "TankBigAxe",
+    "mask": "BigTankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBossBullet01": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Cash02": {
+    "sprite": "Cash",
+    "mask": null,
+    "parent": "CASH",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bar01": {
+    "sprite": "Barracks01",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bar06": {
+    "sprite": "Barracks04",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "Bar02": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PUAxe02": {
+    "sprite": "TankAxe",
+    "mask": "TankMask",
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBullet03": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PUG": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EUG": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Bar03": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Bar05": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Bar04": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Bar07": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "EnemyBoss04": {
+    "sprite": "TankBigCannon",
+    "mask": "BigTankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBossBullet040": {
+    "sprite": "Shell01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyBossBullet041": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -60,
+    "persistent": 0
+  },
+  "Cash03": {
+    "sprite": "Cash",
+    "mask": null,
+    "parent": "CASH",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "MiteBase01": {
+    "sprite": "MiteBase",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PUMite02": {
+    "sprite": "MiteTank",
+    "mask": "TankMask",
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "MiteBase02": {
+    "sprite": "Barracks03",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "MiteBase03": {
+    "sprite": "Barracks04",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "CASH": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "MiteBase04": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "MachineTurret01": {
+    "sprite": "MachineTurretBase",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "MachineTurret02": {
+    "sprite": "MachineTurretTop",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PUBullet04": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Enemy03": {
+    "sprite": "TankMachinegun",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBullet03": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Tab0202": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Command01": {
+    "sprite": "CommandTop",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Command02": {
+    "sprite": "CommandBottom",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "CommandPoint": {
+    "sprite": "Crosshairs01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyBoss03": {
+    "sprite": "APCBase01",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyBoss03Turret": {
+    "sprite": "MachineTurretTop",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "EnemyBoss03Door01": {
+    "sprite": "APCBase02",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyBullet04": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "Tab0102": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Bullet06": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet0602": {
+    "sprite": "RailgunMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "ThrowerFire01": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "ThrowerFire0202": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "EnemyBoss03Door02": {
+    "sprite": "APCBase03",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "PistolBar01": {
+    "sprite": "Barracks01",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PistolBar02": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PistolBar03": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PistolBar04": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PistolBar05": {
+    "sprite": "Barracks02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PistolBar06": {
+    "sprite": "Barracks04",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "PistolBar07": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PUPistol02": {
+    "sprite": "TankPistol",
+    "mask": "TankMask",
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBullet05": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Sell": {
+    "sprite": "Cash",
+    "mask": "AxeMask",
+    "parent": "MENUS",
+    "visible": 1,
+    "solid": 0,
+    "depth": -25,
+    "persistent": 0
+  },
+  "LaserTurret01": {
+    "sprite": "TurretBase01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "LaserTurret02": {
+    "sprite": "LaserTurretTop",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": -25,
+    "persistent": 0
+  },
+  "PUBullet06": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "LaserPoint": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EUG2": {
+    "sprite": null,
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUG2": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PlayerVehicle01": {
+    "sprite": "Vehicle0102",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0101": {
+    "sprite": "Vehicle0103",
+    "mask": null,
+    "parent": "BARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "VehiclePoint": {
+    "sprite": "Crosshairs01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "ThrowerFire02": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "PUBullet07": {
+    "sprite": "Shell01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "LIGHT": {
+    "sprite": "TankMask",
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "BARRIER": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "Blast": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "Armor01": {
+    "sprite": "Suit01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "Bullet07": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Heal": {
+    "sprite": "HealLogo",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -90,
+    "persistent": 0
+  },
+  "Heal02": {
+    "sprite": "HealLogo",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "Heal03": {
+    "sprite": "HealLogo",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -90,
+    "persistent": 0
+  },
+  "ViewFinder": {
+    "sprite": "Crosshairs01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PAUSED": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PauseScreenObject": {
+    "sprite": "PauseScreen",
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": -180,
+    "persistent": 0
+  },
+  "Armor02": {
+    "sprite": "Suit02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "EnemyBoss02": {
+    "sprite": "TankBigPistol",
+    "mask": "BigTankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBossBullet02": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Enemy0401": {
+    "sprite": "TankMother",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Enemy0402": {
+    "sprite": "TankChildPistol",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBullet05": {
+    "sprite": "Ball01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Enemy0403": {
+    "sprite": "TankChildPistol",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "DARK": {
+    "sprite": "spr_Gradient",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -30,
+    "persistent": 0
+  },
+  "EnemyBoss0501": {
+    "sprite": "TankBigMamaAxe",
+    "mask": "BigTankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Enemy0501": {
+    "sprite": "TankMamaAxe",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Enemy0502": {
+    "sprite": "TankChildAxe",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Enemy0503": {
+    "sprite": "TankChildAxe",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBullet06": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyBoss0502": {
+    "sprite": "TankMamaAxe",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBossBullet05": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet0801": {
+    "sprite": "Missile01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet08021": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -60,
+    "persistent": 0
+  },
+  "Bullet0803": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "Bullet08022": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -70,
+    "persistent": 0
+  },
+  "Explosion0102": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -50,
+    "persistent": 0
+  },
+  "EnemyVehicle01": {
+    "sprite": "Vehicle0102",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyVehicle0101": {
+    "sprite": "Vehicle0103",
+    "mask": null,
+    "parent": "ENEMYBARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyDriver": {
+    "sprite": "TankNothing02",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBoss06": {
+    "sprite": "APCBase01",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyBoss06Turret": {
+    "sprite": "TurretTop01",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Enemy06": {
+    "sprite": "TankRailgun",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBullet07": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyBullet0702": {
+    "sprite": "RailgunMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Bullet09": {
+    "sprite": "Round01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Armor03": {
+    "sprite": "Suit03",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "Warp": {
+    "sprite": "Bolt",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Armor0301": {
+    "sprite": "SuitBarrier01",
+    "mask": null,
+    "parent": "BARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "Scorch": {
+    "sprite": "FireBall",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "Scorch02": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "MinigunTurret02": {
+    "sprite": "MinigunTurretTop",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "MinigunTurret01": {
+    "sprite": "MachineTurretBase",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PUBullet08": {
+    "sprite": "Round01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PUBoss01": {
+    "sprite": "TankBigMamaAxe",
+    "mask": "BigTankMask",
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBoss02": {
+    "sprite": "TankMamaAxe",
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBullet09": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PUBoss03": {
+    "sprite": "TankMamaAxe",
+    "mask": "TankMask",
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBoss04": {
+    "sprite": "TankChildAxe",
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBoss05": {
+    "sprite": "TankChildAxe",
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUBullet10": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -60,
+    "persistent": 0
+  },
+  "BossBase01": {
+    "sprite": "BossFactory01",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "BossBase02": {
+    "sprite": "BossFactory02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "BossBase04": {
+    "sprite": "BossFactory04",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "BossBase03": {
+    "sprite": "BossFactory02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "BossBase05": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -30,
+    "persistent": 0
+  },
+  "ENEMYBARRIER": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyMegaBoss01": {
+    "sprite": "BossRailgun",
+    "mask": "BigTankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet01": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet02": {
+    "sprite": "RailgunMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet06": {
+    "sprite": "FireBall",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet07": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet03": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet0401": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -100,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet0402": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "EnemyBossUnit01": {
+    "sprite": "TankAxe",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "ThrowerFire0203": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "Gib": {
+    "sprite": "Giblet01",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Gib02": {
+    "sprite": "Giblet01",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Gib03": {
+    "sprite": "Giblet01",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Gib04": {
+    "sprite": "Giblet01",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "objGTeleport01": {
+    "sprite": "Giblet02",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "objLTeleport01": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -50,
+    "persistent": 0
+  },
+  "Enemy07": {
+    "sprite": "TankPipe01",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBullet08": {
+    "sprite": "Pipe",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyBullet0802": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -60,
+    "persistent": 0
+  },
+  "Armor0101": {
+    "sprite": "Crosshairs01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "PlayerVehicle0201": {
+    "sprite": "Vehicle0201",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0202": {
+    "sprite": "Vehicle0202",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 5,
+    "persistent": 0
+  },
+  "PlayerVehicle0203": {
+    "sprite": "MachineTurretTop",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "TRANSITION": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -250,
+    "persistent": 0
+  },
+  "MENUS": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "TutorialWall01": {
+    "sprite": "Giblet03",
+    "mask": null,
+    "parent": "WALL",
+    "visible": 1,
+    "solid": 0,
+    "depth": 30,
+    "persistent": 0
+  },
+  "Tutorial01": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "TutorialBox01": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "TutorialCash": {
+    "sprite": "Cash",
+    "mask": null,
+    "parent": "Cash01",
+    "visible": 1,
+    "solid": 0,
+    "depth": 30,
+    "persistent": 0
+  },
+  "Portal02": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "PORTAL": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Spark": {
+    "sprite": "TankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "PortalBack": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "Portal01": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Tutorial02": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "TutorialBox02": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "Portal03": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Portal04": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "TeleportCheck": {
+    "sprite": null,
+    "mask": null,
+    "parent": null,
+    "visible": 0,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "Portal05": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Spawner02": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Portal08": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Portal07": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Portal06": {
+    "sprite": "BigTankMask",
+    "mask": null,
+    "parent": "PORTAL",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "Spawner04": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Spawner03": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "MenuButton02": {
+    "sprite": "StatsButton",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 0,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet0403": {
+    "sprite": "Ball02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "EnemyBossUnit02": {
+    "sprite": "TankPipe01",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0201": {
+    "sprite": "Juggernaught01",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0203": {
+    "sprite": "JuggerNaughtDoor02",
+    "mask": null,
+    "parent": "ENEMYBARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0204": {
+    "sprite": "JuggernaughtDoor01",
+    "mask": null,
+    "parent": "ENEMYBARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyBossUnit03": {
+    "sprite": "TankChildAxe",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0205": {
+    "sprite": "JuggernaughtBarrier",
+    "mask": null,
+    "parent": "ENEMYBARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0206": {
+    "sprite": "TankRepair",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0207": {
+    "sprite": "TankRepair",
+    "mask": "TankMask",
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet09": {
+    "sprite": "AxeMask",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0301": {
+    "sprite": "Juggernaught01",
+    "mask": null,
+    "parent": "PUG2",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0303": {
+    "sprite": "JuggerNaughtDoor02",
+    "mask": null,
+    "parent": "BARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0304": {
+    "sprite": "JuggernaughtDoor01",
+    "mask": null,
+    "parent": "BARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0305": {
+    "sprite": "JuggernaughtBarrier",
+    "mask": null,
+    "parent": "BARRIER",
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "PlayerVehicle0306": {
+    "sprite": "TankRepair",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 0,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PlayerVehicle0307": {
+    "sprite": "TankChildAxe",
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "PlayerVehicle0302": {
+    "sprite": "MinigunTurretTop",
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "EnemyMegaBoss0202": {
+    "sprite": "MinigunTurretTop",
+    "mask": null,
+    "parent": "EUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": -20,
+    "persistent": 0
+  },
+  "EnemyMegaBossBullet08": {
+    "sprite": "Round01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -15,
+    "persistent": 0
+  },
+  "Achievement": {
+    "sprite": "SmallTankMask",
+    "mask": null,
+    "parent": null,
+    "visible": 1,
+    "solid": 0,
+    "depth": 10,
+    "persistent": 0
+  },
+  "Respawn": {
+    "sprite": "Button01",
+    "mask": null,
+    "parent": "MENUS",
+    "visible": 1,
+    "solid": 0,
+    "depth": -210,
+    "persistent": 0
+  },
+  "Arrow": {
+    "sprite": "Crosshairs02",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Spawner01": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Spawner06": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "Spawner05": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUMite0101": {
+    "sprite": "MiteTank02",
+    "mask": null,
+    "parent": "PUG",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "PUMite0102": {
+    "sprite": "MiteTank0201",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 5,
+    "persistent": 0
+  },
+  "PUMite0103": {
+    "sprite": "MiteTank0202",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 5,
+    "persistent": 0
+  },
+  "PUMite0104": {
+    "sprite": "MiteTank0201",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 5,
+    "persistent": 0
+  },
+  "PUMite0105": {
+    "sprite": "MiteTank0202",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 5,
+    "persistent": 0
+  },
+  "PUMite0106": {
+    "sprite": "Crosshairs01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 20,
+    "persistent": 0
+  },
+  "EnemyBossBullet042": {
+    "sprite": "Shell01",
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": -10,
+    "persistent": 0
+  },
+  "WALL": {
+    "sprite": null,
+    "mask": null,
+    "parent": "PAUSED",
+    "visible": 1,
+    "solid": 0,
+    "depth": 0,
+    "persistent": 0
+  },
+  "TutorialWall02": {
+    "sprite": "Frame01",
+    "mask": null,
+    "parent": "WALL",
+    "visible": 1,
+    "solid": 0,
+    "depth": 30,
+    "persistent": 0
+  },
+  "TutorialWall03": {
+    "sprite": "Frame02",
+    "mask": null,
+    "parent": "WALL",
+    "visible": 1,
+    "solid": 0,
+    "depth": 30,
+    "persistent": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "0": {
+    "health": 100,
+    "speed": 125,
+    "acceleration": 625,
+    "regeneration": 0.2
+  },
+  "1": {
+    "price": 10000,
+    "health": 200,
+    "speed": 250,
+    "acceleration": 1250,
+    "regeneration": 0.4,
+    "cooldown": 10
+  },
+  "2": {
+    "price": 10000,
+    "health": 250,
+    "speed": 125,
+    "acceleration": 625,
+    "regeneration": 0.5,
+    "cooldown": 40
+  },
+  "3": {
+    "price": 10000,
+    "health": 300,
+    "speed": 125,
+    "acceleration": 156.25,
+    "regeneration": 0.6,
+    "cooldown": 20
+  }
+}

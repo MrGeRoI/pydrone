@@ -1,0 +1,262 @@
+{
+  "structures": {
+    "juggernaut": {
+      "price": 20000,
+      "refund": 15000,
+      "health": 5000,
+      "top": "Juggernaught01",
+      "preview": "JuggernaughtAssembled"
+    },
+    "light_tank": {
+      "price": 4000,
+      "refund": 3000,
+      "health": 500,
+      "top": "Vehicle0102",
+      "preview": "Vehicle01Assembled"
+    },
+    "buggy": {
+      "price": 2000,
+      "refund": 1500,
+      "health": 250,
+      "top": "Vehicle0201",
+      "preview": "Vehicle02Assembled"
+    },
+    "boss_factory": {
+      "price": 8000,
+      "refund": 7500,
+      "health": 500,
+      "top": "BossFactory01",
+      "preview": "BossFactoryAssembled"
+    },
+    "axe_factory": {
+      "price": 1000,
+      "refund": 750,
+      "health": 250,
+      "top": "Barracks01",
+      "preview": "Bar01Assembled"
+    },
+    "pistol_factory": {
+      "price": 4000,
+      "refund": 3000,
+      "health": 250,
+      "top": "Barracks01",
+      "preview": "PistolBarAssembled"
+    },
+    "command": {
+      "price": 2000,
+      "refund": 1500,
+      "health": 100,
+      "top": "CommandTop",
+      "preview": "CommandBottom"
+    },
+    "cannon": {
+      "price": 2000,
+      "refund": 1500,
+      "health": 250,
+      "top": "TurretTop01",
+      "preview": "TurretAssembled"
+    },
+    "turret": {
+      "price": 750,
+      "refund": 562,
+      "health": 250,
+      "top": "MachineTurretTop",
+      "preview": "MachineTurretAssembled"
+    },
+    "generator": {
+      "price": 500,
+      "refund": 375,
+      "health": 500,
+      "top": "AxeMask",
+      "preview": "Square02"
+    },
+    "factory": {
+      "price": 250,
+      "refund": 188,
+      "health": 100,
+      "top": "MiteBase",
+      "preview": "MiteBaseAssembled"
+    },
+    "laser": {
+      "price": 6000,
+      "refund": 4500,
+      "health": 250,
+      "top": "LaserTurretTop",
+      "preview": "LaserTurretAssembled"
+    },
+    "minigun_turret": {
+      "price": 8000,
+      "refund": 6000,
+      "health": 500,
+      "top": "MinigunTurretTop",
+      "preview": "MinigunTurretAssembled"
+    }
+  },
+  "units": {
+    "deployed_robot": {
+      "health": 5,
+      "sprite": "TankChildAxe",
+      "mask": "TankChildAxe"
+    },
+    "pistol_robot": {
+      "health": 10,
+      "sprite": "TankPistol",
+      "mask": "TankMask",
+      "lifetime": 40
+    },
+    "axe_robot": {
+      "health": 25,
+      "sprite": "TankAxe",
+      "mask": "TankMask",
+      "lifetime": 40
+    },
+    "boss_robot": {
+      "health": 500,
+      "sprite": "TankBigMamaAxe",
+      "mask": "BigTankMask"
+    },
+    "boss_scatter": {
+      "health": 50,
+      "sprite": "TankMamaAxe",
+      "mask": "TankMamaAxe"
+    },
+    "boss_medium": {
+      "health": 50,
+      "sprite": "TankMamaAxe",
+      "mask": "TankMask"
+    },
+    "boss_small_scatter": {
+      "health": 50,
+      "sprite": "TankChildAxe",
+      "mask": "TankChildAxe"
+    },
+    "boss_small": {
+      "health": 5,
+      "sprite": "TankChildAxe",
+      "mask": "TankChildAxe"
+    },
+    "money_mite": {
+      "health": 100,
+      "sprite": "MiteTank02",
+      "mask": "MiteTank02"
+    }
+  },
+  "enemies": {
+    "axebot": {
+      "sprite": "TankAxe",
+      "mask": "TankMask"
+    },
+    "apc_unit": {
+      "sprite": "TankAxe",
+      "mask": "TankMask"
+    },
+    "splitter": {
+      "sprite": "TankMamaAxe",
+      "mask": "TankMask"
+    },
+    "axe_boss": {
+      "sprite": "TankBigAxe",
+      "mask": "BigTankMask"
+    },
+    "splitter_boss": {
+      "sprite": "TankBigMamaAxe",
+      "mask": "BigTankMask"
+    },
+    "child": {
+      "sprite": "TankChildAxe",
+      "mask": "TankChildAxe"
+    },
+    "scatter": {
+      "sprite": "TankChildAxe",
+      "mask": "TankChildAxe"
+    },
+    "scatter_parent": {
+      "sprite": "TankMamaAxe",
+      "mask": "TankMamaAxe"
+    },
+    "apc": {
+      "sprite": "APCBase01",
+      "mask": "APCBase01",
+      "turret": {
+        "sprite": "MachineTurretTop",
+        "offset": -104
+      }
+    },
+    "pistol_enemy": {
+      "sprite": "TankPistol",
+      "mask": "TankMask"
+    },
+    "machinegun_enemy": {
+      "sprite": "TankMachinegun",
+      "mask": "TankMask"
+    },
+    "pistol_splitter": {
+      "sprite": "TankMother",
+      "mask": "TankMask"
+    },
+    "pistol_child": {
+      "sprite": "TankChildPistol",
+      "mask": "TankChildPistol"
+    },
+    "pistol_scatter": {
+      "sprite": "TankChildPistol",
+      "mask": "TankChildPistol"
+    },
+    "pistol_boss": {
+      "sprite": "TankBigPistol",
+      "mask": "BigTankMask"
+    },
+    "railgun_enemy": {
+      "sprite": "TankRailgun",
+      "mask": "TankMask"
+    },
+    "bomber": {
+      "sprite": "TankPipe01",
+      "mask": "TankMask"
+    },
+    "cannon_boss": {
+      "sprite": "TankBigCannon",
+      "mask": "BigTankMask"
+    },
+    "enemy_tank": {
+      "sprite": "Vehicle0102",
+      "mask": "Vehicle0102"
+    },
+    "enemy_driver": {
+      "sprite": "TankNothing02",
+      "mask": "TankMask"
+    },
+    "heavy_apc": {
+      "sprite": "APCBase01",
+      "mask": "APCBase01",
+      "turret": {
+        "sprite": "TurretTop01",
+        "offset": -104
+      }
+    },
+    "heavy_apc_unit": {
+      "sprite": "TankPipe01",
+      "mask": "TankMask"
+    },
+    "mega_flame": {
+      "sprite": "BossRailgun",
+      "mask": "BigTankMask"
+    },
+    "mega_juggernaut": {
+      "sprite": "Juggernaught01",
+      "mask": "Juggernaught01",
+      "turret": {
+        "sprite": "MinigunTurretTop",
+        "offset": -176
+      }
+    },
+    "mega_driver": {
+      "sprite": "TankRepair",
+      "mask": "TankMask"
+    },
+    "mega_unit": {
+      "sprite": "TankChildAxe",
+      "mask": "TankChildAxe"
+    }
+  }
+}

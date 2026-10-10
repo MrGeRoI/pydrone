@@ -1,0 +1,10 @@
+{
+  "parallel": {
+    "max_workers": 4,
+    "minimum_pairs": 32768,
+    "minimum_enemies": 128,
+    "minimum_units": 32,
+    "spatial_minimum_targets": 64,
+    "spatial_minimum_pairs": 4096
+  }
+}
